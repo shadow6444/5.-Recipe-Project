@@ -1,0 +1,42 @@
+.navbar-container {
+  border-bottom: 1px solid rgba(141, 141, 141, 0.2);
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 8rem 1rem;
+}
+
+.title h1 {
+  font-family: Roboto Slab, serif;
+  color: rgba(114, 63, 95, 1);
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.of-style {
+  font-family: Sacramento, cursive;
+}
+
+.nav-items{
+    width: 40%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-family: Montserrat,sans-serif;
+  text-transform: uppercase;
+  font-weight: 750;
+}
+
+.material-icons{
+    font-size: 30px;
+    color: rgba(114, 63, 95, 1);
+}
