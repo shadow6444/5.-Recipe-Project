@@ -1,12 +1,14 @@
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import fetchAPI from "./fetchAPI";
 
-function App() {
-
+const App = () => {
+  console.log(fetchAPI("all"));
   return (
     <>
-
+      <Navbar />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
