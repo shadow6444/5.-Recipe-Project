@@ -16,17 +16,17 @@ const Navbar = () => {
                 <a href="#">home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="https://pinchofyum.com/about">About</a>
               </li>
               <li>
-                <a href="#">recipes</a>
+                <a href="https://pinchofyum.com/recipes">recipes</a>
               </li>
               <li>
-                <a href="#">start here</a>
+                <a href="https://pinchofyum.com/start-here">start here</a>
               </li>
               <li>
                 <a href="#">
-                  <i class="material-icons">search</i>
+                  <i className="material-icons">search</i>
                 </a>
               </li>
             </ul>
