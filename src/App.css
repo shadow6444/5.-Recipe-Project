@@ -1,0 +1,26 @@
+.recipe-container {
+  background-color: rgb(247 247 247 / 1);
+}
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 1rem;
+  width: 85%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.break{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.break hr{
+  width: 85%;
+  margin-top: 3rem;
+  border: none;
+  border:1px solid rgb(247 247 247 / 1);
+}
