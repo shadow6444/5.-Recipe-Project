@@ -1,6 +1,6 @@
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({onSelect}) => {
   return (
     <>
       <nav className="navbar-container">
@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="nav-items">
             <ul className="nav-list text-lg">
               <li>
-                <a href="#">home</a>
+                <button className='uppercase' onClick={onSelect}>home</button>
               </li>
               <li>
                 <a href="https://pinchofyum.com/about">About</a>
