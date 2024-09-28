@@ -122,19 +122,19 @@ const Footer = () => {
         </div>
         <div className="social-links">
           <a href="https://www.instagram.com/pinchofyum">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </a>
           <a href="https://www.pinterest.com/pinchofyum/_created/">
-            <i class="fab fa-pinterest"></i>
+            <i className="fab fa-pinterest"></i>
           </a>
           <a href="https://www.tiktok.com/@pinchofyum">
-            <i class="fab fa-tiktok"></i>
+            <i className="fab fa-tiktok"></i>
           </a>
           <a href="https://www.facebook.com/pinchofyum">
-            <i class="fab fa-facebook"></i>
+            <i className="fab fa-facebook"></i>
           </a>
           <a href="https://twitter.com/pinchofyum">
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </a>
         </div>
         <div className="copyright">
