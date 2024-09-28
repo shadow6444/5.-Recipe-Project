@@ -1,13 +1,9 @@
 .recipe {
     text-align: center;
-}
-
-.recipe a {
     display: flex;
     flex-direction: column;
-    text-decoration: none;
+    cursor: pointer;
 }
-
 
 .recipe-img {
     width: 100%;
@@ -17,7 +13,6 @@
 }
 
 .recipe-title {
-    position: relative;
     background-color: rgb(237, 182, 84);
     color: white;
     font-family: "Arvo", Georgia, Cambria, Times New Roman, Times, serif;
@@ -30,7 +25,7 @@
     margin-top: -1rem;
 }
 
-.recipe:hover a {
+.recipe:hover {
     opacity: 0.7;
 }
 
