@@ -12,9 +12,11 @@ const App = () => {
   const [error, setError] = useState(null);
   const [currentPage, setCurrentPage] = useState("main");
   const [selectedRecipe, setSelectedRecipe] = useState(null);
+  const [isFetching, setIsFetching] = useState(false);
 
   useEffect(() => {
     async function fetchAPI(query) {
+      setIsFetching(true);
       const api = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
       try {
         const response = await fetch(api + query);
@@ -23,7 +25,7 @@ const App = () => {
         }
         const resData = await response.json();
         setRecipeData(resData.meals);
-        console.log(resData.meals);
+        setIsFetching(false);
       } catch (err) {
         setError(err.message);
       }
@@ -68,7 +70,13 @@ const App = () => {
         <>
           <Header />
           <div className="recipe-container">
-            <div className="recipes">{recipeContent}</div>
+            {isFetching ? (
+              <p className="text-center text-lg font-medium">
+                Fetching data from API...
+              </p>
+            ) : (
+              <div className="recipes">{recipeContent}</div>
+            )}
           </div>
           <div className="popular-brands">
             <h3>as seen in</h3>
