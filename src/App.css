@@ -16,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .break hr{
@@ -23,4 +24,30 @@
   margin-top: 3rem;
   border: none;
   border:1px solid rgb(247 247 247 / 1);
+}
+
+.popular-brands{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.popular-brands h3{
+  font-family: Montserrat,sans-serif;
+  text-transform: uppercase;
+  font-weight: 750;
+  font-size: 0.75rem;
+  font-weight: 850;
+  letter-spacing: 2px;
+  color: rgb(237 182 84 / 1);
+  margin-bottom: 2rem;
+}
+
+.popular-brand{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
 }
