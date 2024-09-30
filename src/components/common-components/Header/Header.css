@@ -1,0 +1,19 @@
+.heading {
+  margin-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.heading-style1 {
+  font-family: "Arvo", Georgia, Cambria, Times New Roman, Times, serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.85rem;
+}
+
+.heading-style2 {
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+  color: rgba(114, 63, 95, 1);
+  font-size: 2rem;
+}
